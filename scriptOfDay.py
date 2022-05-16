@@ -1,7 +1,6 @@
 import distributions
 import random
 
-
 def spreadingVirus(list,infectedprob, nComp):
     nInfected = list.count(1)
     for infected in range(nInfected):
