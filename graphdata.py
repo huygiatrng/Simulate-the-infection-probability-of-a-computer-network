@@ -9,23 +9,13 @@ def histogramData(list, c):
     for i, v in enumerate(y):
         if v != 0:
             plt.text(x[i] , v, str(v))
-
-    # Show median line.
+    # We can add more graph setting with different c var if we want to.
     if c == 0:
+        # Show median line.
         plt.axvline(statistics.median(list), color='#fc4f30', label='Median', linewidth=3)
         plt.legend()
         plt.xlabel('Days to finish')
         plt.ylabel('Number of trials')
         plt.title('Histogram of days to finish')
-    elif c==1:
-        plt.axvline(statistics.median(list), color='#fc4f30', label='Median', linewidth=3)
-        plt.legend()
-        plt.title('Probability that each computer gets infected at least once')
-    elif c==2:
-        plt.axvline(statistics.median(list), color='#fc4f30', label='Median', linewidth=3)
-        plt.legend()
-        plt.xlabel('Expected number of computers get infected')
-        plt.ylabel('Number of trials')
-        plt.title('The expected number of computers that get infected')
     plt.grid(True)
     plt.show()
