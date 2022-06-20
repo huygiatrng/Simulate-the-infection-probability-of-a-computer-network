@@ -17,3 +17,7 @@ You can complete the project either individually or in groups of 2 or 3 or 4 stu
 Enjoy!
 
 ![image](https://user-images.githubusercontent.com/67343196/161157615-774c48cc-5c37-4c66-b5e8-1fcfb6ba0923.png)
+
+Algorithm diagram:
+
+![project diagram](https://user-images.githubusercontent.com/67343196/174631088-3ade4371-8d14-4633-b3f2-6beafbaae054.png)
