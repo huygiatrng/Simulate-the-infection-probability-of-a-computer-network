@@ -14,8 +14,6 @@ A short paper, describing what you did and how your program works and how it cal
 And you must submit your program in a way that allows us to run it and test it. You can use any programming language of your choice. But you have to figure out a way to let us play with it. For example, I've heard that https://repl.it/ is good for sharing code.
 You can complete the project either individually or in groups of 2 or 3 or 4 students (larger groups are not allowed). You must form these groups here on iCollege by populating the "Project groups" already created there in the Assessments → Groups menu. The project is due on Monday, April 25, by 23:00 at the latest. By of course, the sooner you complete and submit it, the better. You will submit it here on iCollege into the Computer Project assignment folder — one submission per group, which can consist of multiple files.
 
-Enjoy!
-
 ![image](https://user-images.githubusercontent.com/67343196/161157615-774c48cc-5c37-4c66-b5e8-1fcfb6ba0923.png)
 
 Algorithm diagram:
