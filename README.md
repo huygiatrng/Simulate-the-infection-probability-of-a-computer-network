@@ -1,4 +1,5 @@
-# probandstatproject5.10
+# Simulate the infection in a computer network
+Project of Prob and Stat class
 
 As the class project, let's all do our own versions of the same problem. So I am assigning exercise #5.10 from the textbook as your computer project assignment. It's the one about a network of 20 computers being infected with a virus.
 
