@@ -1,19 +1,15 @@
 # Simulate the infection in a computer network
 Project of Prob and Stat class
 
-As the class project, let's all do our own versions of the same problem. So I am assigning exercise #5.10 from the textbook as your computer project assignment. It's the one about a network of 20 computers being infected with a virus.
+The purpose of this project was to simulate the spread of a virus in a network of computers using the Monte Carlo method. The project was based on exercise #5.10 from the textbook, and the simulation involved the incorporation of randomness to accurately represent the phenomenon being studied.
 
-At a very basic level, which is good enough for our purposes for now, the Monte Carlo method amounts to repeated simulations of the phenomenon under study. (Of course, there's a lot more to the story, as always; but we've got to start with the basics.) So the main part is to implement a simulation of what's described in the problem. Make sure that your simulation involves randomness exactly as described! And then you run it repeatedly in a loop.
+The simulation was designed to work with provided values initially, ensuring proper functioning. In addition, the project included the option for the user to input values such as the number of computers in the network, the probability of spreading the infection, and the number of computers repaired daily, making it a more advanced and flexible tool.
 
-First, make sure that your **Monte Carlo** simulation works with the provided values. But then, to make your project a bit more advanced, provide an option to choose input values, such as **the number of computers**, **the probability of spreading the infection**, and **the number of computers repaired daily**.
+To achieve accurate results, multiple runs of the simulation were conducted in a loop with a large number of iterations (N=10000). This approach allowed for a thorough analysis of the spread of the virus in the computer network under various conditions.
 
-To get decent results, make the number of runs large enough. You can hard-code it for now as some large number, like N = 10000 or something.
+The outcome of the project was a functional and user-friendly Monte Carlo simulation, capable of providing valuable insights into the spread of viruses in computer networks. The results of the simulation can be used to inform future efforts in preventing and controlling the spread of viruses in similar networks
 
-What to submit?
-
-A short paper, describing what you did and how your program works and how it calculates the things it calculates. There must be some mathematical background demonstrating your understanding of the Monte Carlo method for estimating probabilities and expectations. And then provide and discuss numerical results you obtained from your simulations. Don't make it long — couple pages should be enough.
-And you must submit your program in a way that allows us to run it and test it. You can use any programming language of your choice. But you have to figure out a way to let us play with it. For example, I've heard that https://repl.it/ is good for sharing code.
-You can complete the project either individually or in groups of 2 or 3 or 4 students (larger groups are not allowed). You must form these groups here on iCollege by populating the "Project groups" already created there in the Assessments → Groups menu. The project is due on Monday, April 25, by 23:00 at the latest. By of course, the sooner you complete and submit it, the better. You will submit it here on iCollege into the Computer Project assignment folder — one submission per group, which can consist of multiple files.
+Multiple runs of the simulation (a large number, such as N=10000) were conducted in a loop to ensure accurate results.
 
 ![image](https://user-images.githubusercontent.com/67343196/161157615-774c48cc-5c37-4c66-b5e8-1fcfb6ba0923.png)
 
