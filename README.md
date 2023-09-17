@@ -23,10 +23,39 @@ Any dependencies mentioned in distributions (Note: As distributions is not provi
 
 For a quick run with default parameters:
     
-    ```bash
-    pyhon main.py
-
+    python main.py
 
 Algorithm diagram:
 
 ![project diagram](https://user-images.githubusercontent.com/67343196/174631088-3ade4371-8d14-4633-b3f2-6beafbaae054.png)
+
+### User Input
+
+You can configure:
+- Number of computers in the network.
+- Percentage of computers initially infected.
+- Number of computers repaired daily.
+- Number of iterations to simulate.
+To use the simulation with user-defined values, you can just follow the on-screen prompts after starting the script.
+
+## Results & Insights
+
+The outcome of each simulation run gives:
+
+- Average day required to fix all computers.
+- Probability of each computer getting infected at least once.
+- Expected number of computers infected daily.
+The results can be used for deeper analysis, helping in designing strategies to prevent or control virus spread in real-world scenarios.
+
+## Contribution & Development
+
+Pull requests and contributions are welcome. For major changes, please open an issue first to discuss what you would like to change or improve.
+
+## Disclaimer
+
+This is a simulation tool and is meant for educational purposes. The results should be used as a guide and not a definitive answer for real-world scenarios.
+
+
+
+
+
