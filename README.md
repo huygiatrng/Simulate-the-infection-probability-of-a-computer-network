@@ -1,17 +1,31 @@
 # Simulate the infection in a computer network
-Project of Prob and Stat class
 
-The purpose of this project was to simulate the spread of a virus in a network of computers using the Monte Carlo method. The project was based on exercise #5.10 from the textbook, and the simulation involved the incorporation of randomness to accurately represent the phenomenon being studied.
+## Overview
 
-The simulation was designed to work with provided values initially, ensuring proper functioning. In addition, the project included the option for the user to input values such as the number of computers in the network, the probability of spreading the infection, and the number of computers repaired daily, making it a more advanced and flexible tool.
+This project aims to simulate the spread of a virus in a network of computers using the Monte Carlo method. Originating from a problem described in exercise #5.10 of a textbook, the simulation incorporates randomness to accurately represent the infection phenomenon.
 
-To achieve accurate results, multiple runs of the simulation were conducted in a loop with a large number of iterations (N=10000). This approach allowed for a thorough analysis of the spread of the virus in the computer network under various conditions.
+Through various user-configurable inputs, this simulation offers the ability to understand the behavior of virus spread in different conditions, making it a flexible and versatile tool.
 
-The outcome of the project was a functional and user-friendly Monte Carlo simulation, capable of providing valuable insights into the spread of viruses in computer networks. The results of the simulation can be used to inform future efforts in preventing and controlling the spread of viruses in similar networks
+## Features
+Provides default values for quick simulations.
+User input is facilitated for the number of computers, infection probability, computers repaired daily, and iterations.
+Advanced Monte Carlo simulations for comprehensive results.
+Visual representation through histograms to showcase the spread dynamics.
+## Requirements
+Python
+Matplotlib for visual representation: pip install matplotlib
+Any dependencies mentioned in distributions (Note: As distributions is not provided, ensure you have relevant imports and dependencies.)
 
-Multiple runs of the simulation (a large number, such as N=10000) were conducted in a loop to ensure accurate results.
 
-![image](https://user-images.githubusercontent.com/67343196/161157615-774c48cc-5c37-4c66-b5e8-1fcfb6ba0923.png)
+## Usage
+
+### Default Run
+
+For a quick run with default parameters:
+    
+    ```bash
+    pyhon main.py
+
 
 Algorithm diagram:
 
